@@ -40,6 +40,40 @@ body {
   padding: 1rem;
   border-radius: 0.5rem;
 }
+table {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+th, td {
+  border: 1px solid grey;
+  color: white;
+}
+th {
+  font-size: 1.4rem;
+}
+td {
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: black;
+  font-weight: 500;
+} 
+.active {
+  color: black;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
 .footer {
   display: flex;
   flex-direction: column;  
