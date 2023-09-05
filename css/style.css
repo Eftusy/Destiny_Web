@@ -71,7 +71,8 @@ body {
 }
 
 /* Gallery starts here */
-.boxes-grid-layout {
+.boxes-grid-layout,
+.videos-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   grid-gap: 1rem;
@@ -104,7 +105,20 @@ body {
   line-height: 0.5rem;
 }
 /* Gallery ends here */
-
+/* videos section starts here */
+.videos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-gap: 1rem;
+  margin: 3rem auto;
+  max-width: 100rem;
+  padding: 0.2rem;
+}
+.video {
+  width: 100%;
+  min-height: 300px;
+}
+/* videos section ends here */
 
 
 
