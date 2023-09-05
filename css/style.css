@@ -7,7 +7,11 @@
   --gris: #757575;
   --morado: rgb(137, 130, 238);
   --transparente: rgb(38 21 84 / 48%);
+  font-family: 'Heebo', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
+
 
 body {
   /* background-image: url(../img/1.png); */
@@ -16,13 +20,29 @@ body {
   height: 100vh;
   width: 100vw;
 }
+.navbar-brand {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: grey;
+  opacity: 0.5;
+}
+.nav-link {
+  font-family:'Ubuntu Mono', monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
 .titular {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
   color: var(--morado);
   text-align: center;
   font-size: 5rem;
   margin-top: 1em;
 }
 .intro {
+  font-family:'Ubuntu', sans-serif;
   width: 60%;
   font-size: 2.5rem;
   margin: 0 auto;
@@ -40,25 +60,10 @@ body {
   padding: 1rem;
   border-radius: 0.5rem;
 }
-table {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  border-radius: 1rem;
-}
-th, td {
-  border: 1px solid grey;
-  color: white;
-}
-th {
-  font-size: 1.4rem;
-}
-td {
-  font-size: 1.2rem;
-}
+
 .nav-link:hover {
   color: black;
-  font-weight: 500;
+  font-weight: 600;
 } 
 .active {
   color: black;
@@ -73,39 +78,30 @@ td {
   margin: 2rem auto;
   max-width: 100rem;
   padding: 0.2rem;
-  
 }
 .box {
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid grey;
   border-radius: 0.5rem;
   padding: 0.7rem;
-  line-height: 0.5rem;
   background-color: #e4e2e2;
   box-shadow: 0 5px 5px 2px grey;
-}
-.box-title {
-  margin-top: 0.5rem;
 }
 .box-img{
   width: 100%;
   display: block;
   border-radius: 0.5rem;
 }
-.city-name {
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1rem;
+.box-title {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
 }
-.city-id {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  opacity: 0.7;
-}
-.city-description {
-  font-size: 1.6rem;
-  line-height: 1.3;
+.box-content {
+  font-family:'Ubuntu', sans-serif;
+  font-size: 1rem;
   margin-bottom: 1rem;
+  line-height: 0.5rem;
 }
 /* Gallery ends here */
 
